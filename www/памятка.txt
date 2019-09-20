@@ -1,0 +1,48 @@
+
+outline: 1px solid #cccccc;
+background-image: url("../images/ ");
+background-repeat: no-repeat;
+font: 18px Arial, sans-serif;
+
+
+Ctrl+/ - быстное комментирование строки
+
+эммет
+html
+!_tab - загатовка хтмл файла
+c           <!-- Комментарий -->
+
+
+css
+
+cm          /* Комментарий */
+
+bgi         background-image: url();
+bgin        background-image: none;
+
+bgr         background-repeat: ;
+bgrn        background-repeat: no-repeat;
+bgrx        background-repeat: repeat-x;
+bgry        background-repeat: repeat-y;
+
+fll         float: left;
+ovh         overflow: hidden;
+
+
+
+phpstorm
+ctrl + w  - выделение
+ctrl + space - автодополнение
+ctrl + d - дублировать строку
+ctrl + y - удалить строку
+ctrl + x - вырезать строку
+ctrl + alt + l - форматирование кода
+
+photoshop
+alt + ctrl + shift + e  -- слить все слои и скопировать их на отдельный слой
+
+
+
+
+
+
