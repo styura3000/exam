@@ -490,7 +490,7 @@ ul#nav li a#active{
 /*Начало блока grey */
 #grey  {
     height: 164px;
-    outline: 1px solid #ff0000;
+    outline: 0 solid #ff0000;
     background-color: #2e302c;
     padding: 18px 34px 34px 0;
 }
@@ -528,3 +528,20 @@ ul#nav li a#active{
     font: 12px Arial,sans-serif;
     letter-spacing: -0.65px;
 }
+
+#grey-3col ul{
+    margin-top: 26px;
+    position: relative;
+
+}
+
+#grey-3col ul li {
+    list-style: none;
+    background: url("../images/marker.png") no-repeat 27px 4px;
+    padding-left: 60px;
+    margin-bottom: 17px;
+    color: #94998f;
+    font: 12px Arial, sans-serif;
+    letter-spacing: -0.65px;
+}
+/* end of block grey */

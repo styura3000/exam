@@ -2,6 +2,7 @@
 outline: 1px solid #cccccc;
 background-image: url("../images/ ");
 background-repeat: no-repeat;
+        background: url("../images/marker.png") no-repeat 30px 4px;
 font: 18px Arial, sans-serif;
 line-height: 1.4;
 letter-spacing: -0.65px;
