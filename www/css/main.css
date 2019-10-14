@@ -396,7 +396,6 @@ ul#nav li a#active{
 /*Начало блока black */
 #black{
     height: 402px;
-    outline: 1px solid #ff0000;
     background-color: #1d1e1b;
     padding: 16px 37px 13px 0;
 }
@@ -485,4 +484,47 @@ ul#nav li a#active{
     font: 11px Arial,sans-serif;
     margin-left: 9px;
 
+}
+
+/*конец блока black*/
+/*Начало блока grey */
+#grey  {
+    height: 164px;
+    outline: 1px solid #ff0000;
+    background-color: #2e302c;
+    padding: 18px 34px 34px 0;
+}
+#grey-1col, #grey-2col, #grey-3col{
+    width: 290px;
+    margin-left: 40px;
+    float: left;
+}
+
+#grey-1col h3, #grey-2col h3 , #grey-3col h3{
+    text-transform: uppercase;
+    font: 18px Arial,sans-serif;
+    color: #ffffff;
+    margin-bottom: 4px;
+
+}
+
+#grey-1col p{
+    color: #94998f;
+    font: 12px Arial,sans-serif;
+    line-height: 1.4;
+    letter-spacing: -0.65px;
+    margin-bottom: 8px;
+}
+
+#grey-1col a{
+    text-decoration: none;
+    color: #2c789c;
+    font: 16px Arial,sans-serif;
+}
+
+#grey-2col ul li{
+    margin: 0 0 17px 44px;
+    color: #94998f;
+    font: 12px Arial,sans-serif;
+    letter-spacing: -0.65px;
 }
