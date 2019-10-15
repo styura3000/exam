@@ -544,5 +544,26 @@ ul#nav li a#active{
     font: 12px Arial, sans-serif;
     letter-spacing: -0.65px;
 }
-/* end of block grey */
+/* end of grey block */
+/* the beginning of a block footer*/
 
+#footer{
+    height: 75px;
+    background-color: #131412;
+    padding: 80px 36px 0 40px;
+    outline: 1px solid #ff0000;
+}
+
+#PrivacyPolicy{
+    color: #9b9d99;
+
+}
+#PrivacyPolicy a{
+    text-decoration: none;
+    color: #9b9d99;
+    font: 13px Arial,sans-serif;
+}
+
+#PrivacyPolicy a:hover{
+    color: #2c789c;
+}
