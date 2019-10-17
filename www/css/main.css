@@ -4,7 +4,7 @@
     height: 1800px;
     width: 1024px;
     margin: 0 auto;
-    outline: 1px solid #000000;
+    outline: 0 solid #000000;
     
 }
 
@@ -551,7 +551,7 @@ ul#nav li a#active{
     height: 75px;
     background-color: #131412;
     padding: 80px 36px 0 40px;
-    outline: 1px solid #ff0000;
+    outline: 0 solid #ff0000;
     position: relative;
 }
 
@@ -603,5 +603,58 @@ ul#footer-nav li a:hover{
 ul#footer-nav li a#footer-nav-active{
     color: #2c789c;
 
+
+}
+
+#social{
+    position: absolute;
+    width: 151px;
+    height: 21px;
+    top: 110px;
+    right: 36px;
+    outline: 0 solid #ff0000;
+}
+
+#social li{
+    float: right;
+}
+#social a{
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#social a:hover{
+    opacity: 0.8;
+}
+
+#s1{
+    width: 21px;
+    height: 21px;
+    background: url("../images/social-1.png") no-repeat;
+    margin-left: 5px;
+
+}
+
+#s2{
+    width: 27px;
+    height: 21px;
+    background: url("../images/social-2.png") no-repeat;
+    margin-left: 5px;
+
+}
+
+#s3{
+    width: 22px;
+    height: 21px;
+    background: url("../images/social-3.png") no-repeat;
+    margin-left: 5px;
+
+}
+
+#s4{
+    width: 60px;
+    height: 21px;
+    background: url("../images/social-4.png") no-repeat;
 
 }
