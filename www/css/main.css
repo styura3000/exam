@@ -552,10 +552,12 @@ ul#nav li a#active{
     background-color: #131412;
     padding: 80px 36px 0 40px;
     outline: 1px solid #ff0000;
+    position: relative;
 }
 
 #PrivacyPolicy{
     color: #9b9d99;
+    width: 220px;
 
 }
 #PrivacyPolicy a{
@@ -566,4 +568,40 @@ ul#nav li a#active{
 
 #PrivacyPolicy a:hover{
     color: #2c789c;
+}
+
+#footer-nav{
+    outline: 0 solid #ff0000;
+    position: absolute;
+    right: 22px;
+    top: 80px;
+    width: 415px;
+    height: 19px;
+}
+
+ul#footer-nav li{
+    float: left;
+
+}
+
+ul#footer-nav li a{
+    display: block;
+    margin: 0 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    color: #9b9d99;
+    font: 13px Arial, sans-serif;
+
+}
+
+ul#footer-nav li a:hover{
+    color: #2c789c;
+
+}
+
+ul#footer-nav li a#footer-nav-active{
+    color: #2c789c;
+
+
 }
